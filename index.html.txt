@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I'm Sorry, Aaru 🐻💔</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #ffe6f0, #fffafc);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 30px;
+      color: #444;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #ff4d6d;
+    }
+
+    .emoji {
+      font-size: 2.5em;
+      animation: floatEmoji 2s ease-in-out infinite;
+    }
+
+    @keyframes floatEmoji {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .bear-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .bear {
+      width: 150px;
+      height: 150px;
+      margin: 15px;
+      animation: bounce 1.5s infinite;
+    }
+
+    .bear.sad {
+      transform: scaleX(-1);
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+
+    .message {
+      font-size: 1.3em;
+      max-width: 700px;
+      margin: 20px auto;
+      line-height: 1.6;
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(255, 192, 203, 0.3);
+    }
+
+    .button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      background-color: #ff85a2;
+      color: white;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #ff4d6d;
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <audio autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="emoji">😭😭😭</div>
+  <h1>I'm Really Sorry, Aaru 🐻💗</h1>
+
+  <div class="message">
+    Hey Aaru,<br><br>
+    I know I messed up big time… and honestly, I feel like a sad potato with no ketchup 🥺.<br>
+    What I did was silly and careless — but my feelings for you? Never a joke. 💞<br><br>
+    You're the fluff to my bear, the cheese to my maggi, and the sparkle to my dumb lil heart.<br><br>
+    Please look at these cute bears trying to say what I can't 🐻👇
+  </div>
+
+  <div class="bear-container">
+    <img class="bear" src="https://media.tenor.com/TgFfGZ7K_sEAAAAi/bear-beg.gif" alt="Bear Begging">
+    <img class="bear sad" src="https://media.tenor.com/VFj-Kv2sD2YAAAAi/sad-bear.gif" alt="Sad Bear">
+  </div>
+
+  <div class="message">
+    They’re begging... just like me. With lil teary eyes and full hearts. 🥹<br>
+    Aaru, I miss your energy, your teasing, your affection, your EVERYTHING.<br><br>
+    If I could send you 999 teddy bears and 1 real me (begging), I would. But for now, this page will have to do 😔💝<br><br>
+    Can you forgive me, Aaru? Just a teensy bit? 🐾
+  </div>
+
+  <button class="button" onclick="alert('YAY! Thank you Aaru ❤️🐻 You’re the best, and I’ll never stop proving it! 💕')">
+    Tap to Forgive This Fluffy Idiot 🐻✨
+  </button>
+
+  <div class="emoji" style="margin-top: 40px;">🥺🥺🥺</div>
+</body>
+</html>
